@@ -19,3 +19,5 @@ summary(model1)
 ggplot(adelie, aes(bill_length_mm, flipper_length_mm)) +
   geom_point() + 
   stat_smooth(method = "lm")
+
+# added a comment
